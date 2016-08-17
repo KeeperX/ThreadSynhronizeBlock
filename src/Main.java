@@ -3,9 +3,9 @@
  */
 public class Main {
 
-
-    public static void main(String arg){
-        
+    public static void main(String[] arg){
+   Worker wk = new Worker();
+        wk.start();
 
 
 
